@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-scheduler-core",
   "version": "3.0.6",
   "description": "Core library for the DevExtreme Reactive Scheduler component",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -22,7 +23,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-scheduler-core.umd.js",
+  "main": "dist/dx-scheduler-core.es.js",
   "module": "dist/dx-scheduler-core.es.js",
   "globalName": "DevExpress.DXSchedulerCore",
   "files": [
