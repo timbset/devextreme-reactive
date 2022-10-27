@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
-import SearchIcon from '@mui/icons-material/Search';
+import { Search as SearchIcon } from '@mui/icons-material';
 import { Icon } from './icon';
 
 describe('Icon', () => {

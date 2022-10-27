@@ -1,7 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import ChevronRight from '@mui/icons-material/ChevronRight';
-import ExpandMore from '@mui/icons-material/ExpandMore';
+import { ChevronRight, ExpandMore } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
 
 export const Icon = React.memo(({

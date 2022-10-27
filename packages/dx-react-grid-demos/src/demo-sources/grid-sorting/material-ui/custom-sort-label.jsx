@@ -10,8 +10,7 @@ import {
   TableHeaderRow,
 } from '@devexpress/dx-react-grid-material-ui';
 
-import ArrowDownward from '@mui/icons-material/ArrowDownward';
-import ArrowUpward from '@mui/icons-material/ArrowUpward';
+import { ArrowDownward, ArrowUpward } from '@mui/icons-material';
 
 import { generateRows } from '../../../demo-data/generator';
 

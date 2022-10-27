@@ -1,7 +1,5 @@
 // BLOCK:imports
-import Equalizer from '@mui/icons-material/Equalizer';
-import People from '@mui/icons-material/People';
-import PieChart from '@mui/icons-material/PieChart';
+import { Equalizer, People, PieChart } from '@mui/icons-material';
 // BLOCK:imports
 
 // BLOCK:body

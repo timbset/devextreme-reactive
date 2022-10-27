@@ -6,7 +6,7 @@ import {
 } from '@devexpress/dx-react-grid-material-ui';
 import { Paper, Input, styled } from '@mui/material';
 
-import DateRange from '@mui/icons-material/DateRange';
+import { DateRange } from '@mui/icons-material';
 
 import { generateRows, globalSalesValues } from '../../../demo-data/generator';
 

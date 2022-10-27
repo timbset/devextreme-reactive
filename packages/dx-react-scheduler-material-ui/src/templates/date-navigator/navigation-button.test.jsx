@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { createShallow } from '@devexpress/dx-testing';
-import ChevronLeft from '@mui/icons-material/ChevronLeft';
-import ChevronRight from '@mui/icons-material/ChevronRight';
+import { ChevronLeft, ChevronRight } from '@mui/icons-material';
 import { NavigationButton, classes } from './navigation-button';
 
 describe('DateNavigator', () => {

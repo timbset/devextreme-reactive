@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createShallow } from '@devexpress/dx-testing';
-import CloseIcon from '@mui/icons-material/Close';
+import { Close as CloseIcon } from '@mui/icons-material';
 import { CancelButton, classes } from './cancel-button';
 
 describe('AppointmentForm command', () => {

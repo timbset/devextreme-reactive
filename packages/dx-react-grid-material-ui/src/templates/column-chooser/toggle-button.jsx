@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { IconButton, Tooltip } from '@mui/material';
-import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import { VisibilityOff } from '@mui/icons-material';
 
 export const ToggleButton = ({
   onToggle, getMessage,

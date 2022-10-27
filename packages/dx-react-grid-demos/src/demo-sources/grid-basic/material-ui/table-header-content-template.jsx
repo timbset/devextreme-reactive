@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Paper, IconButton, styled } from '@mui/material';
-import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import { VisibilityOff } from '@mui/icons-material';
 import {
   Grid,
   Table,

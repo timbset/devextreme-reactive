@@ -21,14 +21,21 @@ import {
   Resources,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { connectProps } from '@devexpress/dx-react-core';
-import { styled, alpha } from '@mui/material/styles';
-import PriorityHigh from '@mui/icons-material/PriorityHigh';
-import LowPriority from '@mui/icons-material/LowPriority';
-import Lens from '@mui/icons-material/Lens';
-import Event from '@mui/icons-material/Event';
-import AccessTime from '@mui/icons-material/AccessTime';
 import {
-  Paper, MenuItem, Select, Grid, FormControl,
+  PriorityHigh,
+  LowPriority,
+  Lens,
+  Event,
+  AccessTime,
+} from '@mui/icons-material';
+import {
+  Paper,
+  MenuItem,
+  Select,
+  Grid,
+  FormControl,
+  styled,
+  alpha,
 } from '@mui/material';
 import classNames from 'clsx';
 

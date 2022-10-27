@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createShallow } from '@devexpress/dx-testing';
-import DeleteIcon from '@mui/icons-material/Delete';
+import { Delete as DeleteIcon } from '@mui/icons-material';
 import { DeleteButton, classes } from './delete-button';
 
 describe('AppointmentForm command', () => {

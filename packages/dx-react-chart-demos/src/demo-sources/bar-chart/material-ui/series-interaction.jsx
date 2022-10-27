@@ -18,7 +18,7 @@ import {
 } from '@devexpress/dx-react-chart';
 import {
   NavigateBefore, NavigateNext,
-} from '@mui/icons-material/';
+} from '@mui/icons-material';
 import { annualVehiclesSales as data } from '../../../demo-data/data-vizualization';
 
 const PREFIX = 'Demo';

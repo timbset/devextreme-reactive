@@ -2,8 +2,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'clsx';
 import { Button, IconButton, styled } from '@mui/material';
-import ChevronLeft from '@mui/icons-material/ChevronLeft';
-import ChevronRight from '@mui/icons-material/ChevronRight';
+import { ChevronLeft, ChevronRight } from '@mui/icons-material';
 import { firstRowOnPage, lastRowOnPage, calculateStartPage } from '@devexpress/dx-grid-core';
 
 const PREFIX = 'Pagination';
