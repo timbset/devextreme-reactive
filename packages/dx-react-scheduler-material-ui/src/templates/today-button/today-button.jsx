@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import * as PropTypes from 'prop-types';
-import Button from '@mui/material/Button';
+import { styled, Button } from '@mui/material';
+import PropTypes from 'prop-types';
 import classNames from 'clsx';
 import { LAYOUT_MEDIA_QUERY } from '../constants';
 

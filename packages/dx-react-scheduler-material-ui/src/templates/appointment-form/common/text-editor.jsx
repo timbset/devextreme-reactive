@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import * as PropTypes from 'prop-types';
-import TextField from '@mui/material/TextField';
+import { styled, TextField } from '@mui/material';
+import PropTypes from 'prop-types';
 import classNames from 'clsx';
 import {
   TITLE_TEXT_EDITOR,

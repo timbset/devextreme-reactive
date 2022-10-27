@@ -1,8 +1,6 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import * as PropTypes from 'prop-types';
-import DialogActions from '@mui/material/DialogActions';
-import DialogTitle from '@mui/material/DialogTitle';
+import { styled, DialogActions, DialogTitle } from '@mui/material';
+import PropTypes from 'prop-types';
 import { SMALL_LAYOUT_MEDIA_QUERY } from '../constants';
 
 const PREFIX = 'Layout';

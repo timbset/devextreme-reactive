@@ -1,9 +1,11 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import * as PropTypes from 'prop-types';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import OutlinedInput from '@mui/material/OutlinedInput';
+import {
+  styled,
+  Select,
+  MenuItem,
+  OutlinedInput,
+} from '@mui/material';
+import PropTypes from 'prop-types';
 
 const PREFIX = 'OutlinedSelect';
 

@@ -1,10 +1,12 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
-import * as PropTypes from 'prop-types';
-import FormControlLabel from '@mui/material/FormControlLabel';
+import {
+  styled,
+  Radio,
+  Grid,
+  FormControlLabel,
+} from '@mui/material';
+import PropTypes from 'prop-types';
 import classNames from 'clsx';
-import Radio from '@mui/material/Radio';
-import Grid from '@mui/material/Grid';
 import { NUMBER_EDITOR } from '@devexpress/dx-scheduler-core';
 
 const PREFIX = 'ChangeMonthEditor';

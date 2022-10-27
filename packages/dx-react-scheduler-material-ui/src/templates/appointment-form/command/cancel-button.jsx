@@ -1,9 +1,8 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import * as PropTypes from 'prop-types';
-import IconButton from '@mui/material/IconButton';
+import { styled, IconButton } from '@mui/material';
+import PropTypes from 'prop-types';
 import classNames from 'clsx';
-import CloseIcon from '@mui/icons-material/Close';
+import { Close as CloseIcon } from '@mui/icons-material';
 
 const PREFIX = 'CancelButton';
 

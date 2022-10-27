@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-react-scheduler-material-ui",
   "version": "3.0.6",
   "description": "Material-UI templates for DevExtreme React Scheduler component",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -25,7 +26,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-scheduler-material-ui.cjs.js",
+  "main": "dist/dx-react-scheduler-material-ui.es.js",
   "module": "dist/dx-react-scheduler-material-ui.es.js",
   "globalName": "DevExpress.DXReactSchedulerMaterialUI",
   "files": [

@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import * as PropTypes from 'prop-types';
-import Drawer from '@mui/material/Drawer';
+import { styled, Drawer } from '@mui/material';
+import PropTypes from 'prop-types';
 import classNames from 'clsx';
 import { TRANSITIONS_TIME, LAYOUT_MEDIA_QUERY } from '../constants';
 
