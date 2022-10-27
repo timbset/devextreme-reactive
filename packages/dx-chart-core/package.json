@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-chart-core",
   "version": "3.0.6",
   "description": "Core library for the DevExtreme Reactive Chart component",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -23,7 +24,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-chart-core.umd.js",
+  "main": "dist/dx-chart-core.es.js",
   "module": "dist/dx-chart-core.es.js",
   "globalName": "DevExpress.DXChartCore",
   "files": [
