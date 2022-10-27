@@ -1,9 +1,8 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Popper from '@mui/material/Popper';
+import { styled, Popper } from '@mui/material';
 import { RIGHT, TOP } from '@devexpress/dx-chart-core';
 import classNames from 'clsx';
-import * as PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const PREFIX = 'Overlay';
 
