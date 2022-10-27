@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-react-grid-export",
   "version": "3.0.6",
   "description": "Export component for DevExtreme Reactive Grid",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -26,7 +27,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-grid-export.umd.js",
+  "main": "dist/dx-react-grid-export.es.js",
   "module": "dist/dx-react-grid-export.es.js",
   "globalName": "DevExpress.DXReactGridExport",
   "files": [
