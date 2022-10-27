@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-core",
   "version": "3.0.6",
   "description": "Core library for DevExtreme Reactive Components",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -23,7 +24,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-core.umd.js",
+  "main": "dist/dx-core.es.js",
   "module": "dist/dx-core.es.js",
   "globalName": "DevExpress.DXCore",
   "files": [
