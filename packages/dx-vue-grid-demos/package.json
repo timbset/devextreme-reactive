@@ -3,6 +3,7 @@
   "name": "@devexpress/dx-vue-grid-demos",
   "version": "3.0.6",
   "description": "DevExtreme Vue Components Demos",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
