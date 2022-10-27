@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { Paper } from '@mui/material';
+import { Paper, alpha, styled } from '@mui/material';
 import {
   Grid,
   Table,
   TableHeaderRow,
 } from '@devexpress/dx-react-grid-material-ui';
-import { alpha, styled } from '@mui/material/styles';
 import {
   generateRows,
   globalSalesValues,

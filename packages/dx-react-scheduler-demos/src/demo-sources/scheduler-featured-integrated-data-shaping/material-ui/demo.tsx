@@ -1,12 +1,11 @@
 import * as React from 'react';
-import { styled, alpha } from '@mui/material/styles';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler, DayView, Appointments, MonthView, Toolbar,
   DateNavigator, ViewSwitcher, TodayButton, Resources, AppointmentTooltip,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { indigo, blue, teal } from '@mui/material/colors';
-import { Paper } from '@mui/material';
+import { Paper, styled, alpha } from '@mui/material';
 import classNames from 'clsx';
 
 const PREFIX = 'Demo';

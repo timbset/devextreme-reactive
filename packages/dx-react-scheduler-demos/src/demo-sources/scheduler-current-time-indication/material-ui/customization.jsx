@@ -1,12 +1,11 @@
 import * as React from 'react';
-import { styled, alpha } from '@mui/material/styles';
 import {
   Appointments,
   Scheduler,
   WeekView,
   CurrentTimeIndicator,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import { Paper } from '@mui/material';
+import { Paper, styled, alpha } from '@mui/material';
 import { teal } from '@mui/material/colors';
 import classNames from 'clsx';
 
