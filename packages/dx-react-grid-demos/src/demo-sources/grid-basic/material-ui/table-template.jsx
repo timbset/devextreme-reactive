@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Paper from '@mui/material/Paper';
+import { Paper } from '@mui/material';
 import {
   Grid,
   Table,

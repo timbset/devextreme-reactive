@@ -1,16 +1,17 @@
 // BLOCK:imports
-import TextField from '@mui/material/TextField';
-import FormGroup from '@mui/material/FormGroup';
-import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogTitle from '@mui/material/DialogTitle';
-import MuiGrid from '@mui/material/Grid';
+import {
+  TextField,
+  FormGroup,
+  Button,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
+  Grid as MuiGrid,
+} from '@mui/material';
 // eslint-disable-next-line
 import moment from 'moment';
-import DatePicker from '@mui/lab/DatePicker';
-import LocalizationProvider from '@mui/lab/LocalizationProvider';
+import { DatePicker, LocalizationProvider } from '@mui/lab';
 import AdapterMoment from '@mui/lab/AdapterMoment';
 // BLOCK:imports
 

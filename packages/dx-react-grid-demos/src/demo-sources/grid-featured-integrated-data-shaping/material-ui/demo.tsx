@@ -1,7 +1,5 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
-import Input from '@mui/material/Input';
-import { styled } from '@mui/material/styles';
+import { Paper, Input, styled } from '@mui/material';
 import {
   Column,
   FilteringState, GroupingState,

@@ -1,7 +1,6 @@
 import * as React from 'react';
-import * as PropTypes from 'prop-types';
-import { styled } from '@mui/material/styles';
-import TableCell from '@mui/material/TableCell';
+import PropTypes from 'prop-types';
+import { styled, TableCell } from '@mui/material';
 
 const PREFIX = 'Demo';
 const classes = {

@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import * as PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { FilteringState, IntegratedFiltering, DataTypeProvider } from '@devexpress/dx-react-grid';
 import {
   Grid, Table, TableHeaderRow, TableFilterRow,
 } from '@devexpress/dx-react-grid-material-ui';
-import Paper from '@mui/material/Paper';
-import Input from '@mui/material/Input';
-import { styled } from '@mui/material/styles';
+import { Paper, Input, styled } from '@mui/material';
+
 import DateRange from '@mui/icons-material/DateRange';
 
 import { generateRows, globalSalesValues } from '../../../demo-data/generator';

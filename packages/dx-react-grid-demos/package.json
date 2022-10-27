@@ -2,6 +2,7 @@
   "private": true,
   "name": "@devexpress/dx-react-grid-demos",
   "version": "3.0.6",
+  "type": "module",
   "description": "DevExtreme React Components Demos",
   "author": {
     "name": "Developer Express Inc.",

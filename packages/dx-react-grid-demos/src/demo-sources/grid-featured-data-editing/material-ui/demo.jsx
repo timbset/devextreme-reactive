@@ -9,19 +9,23 @@ import {
   PagingPanel, DragDropProvider, TableColumnReordering,
   TableFixedColumns, TableSummaryRow,
 } from '@devexpress/dx-react-grid-material-ui';
-import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import Input from '@mui/material/Input';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import TableCell from '@mui/material/TableCell';
+import {
+  Paper,
+  Button,
+  IconButton,
+  Input,
+  Select,
+  MenuItem,
+  TableCell,
+  styled,
+} from '@mui/material';
 
-import DeleteIcon from '@mui/icons-material/Delete';
-import EditIcon from '@mui/icons-material/Edit';
-import SaveIcon from '@mui/icons-material/Save';
-import CancelIcon from '@mui/icons-material/Cancel';
-import { styled } from '@mui/material/styles';
+import {
+  Delete as DeleteIcon,
+  Edit as EditIcon,
+  Save as SaveIcon,
+  Cancel as CancelIcon,
+} from '@mui/icons-material';
 
 import { ProgressBarCell } from '../../../theme-sources/material-ui/components/progress-bar-cell';
 import { HighlightedCell } from '../../../theme-sources/material-ui/components/highlighted-cell';

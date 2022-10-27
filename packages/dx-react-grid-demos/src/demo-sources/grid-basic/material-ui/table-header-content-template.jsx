@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import Paper from '@mui/material/Paper';
-import IconButton from '@mui/material/IconButton';
+import { Paper, IconButton, styled } from '@mui/material';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import {
   Grid,
   Table,
   TableHeaderRow,
 } from '@devexpress/dx-react-grid-material-ui';
-import { styled } from '@mui/material/styles';
 import {
   generateRows,
   globalSalesValues,

@@ -1,12 +1,14 @@
 // BLOCK:imports
-import OutlinedInput from '@mui/material/OutlinedInput';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import Typography from '@mui/material/Typography';
-import GridMUI from '@mui/material/Grid';
-import Checkbox from '@mui/material/Checkbox';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import { styled } from '@mui/material/styles';
+import {
+  OutlinedInput,
+  Select,
+  MenuItem,
+  Typography,
+  Checkbox,
+  FormControlLabel,
+  styled,
+  Grid as GridMUI,
+} from '@mui/material';
 // BLOCK:imports
 
 // BLOCK:body

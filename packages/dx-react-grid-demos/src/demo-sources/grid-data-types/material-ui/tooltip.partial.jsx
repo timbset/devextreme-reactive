@@ -1,6 +1,6 @@
 // BLOCK:imports
 import * as React from 'react';
-import Tooltip from '@mui/material/Tooltip';
+import { Tooltip } from '@mui/material';
 // BLOCK:imports
 
 // BLOCK:body

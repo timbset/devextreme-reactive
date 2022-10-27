@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Paper from '@mui/material/Paper';
+import { Paper, styled } from '@mui/material';
 import {
   RowDetailState,
   DataTypeProvider,
@@ -22,7 +22,7 @@ import {
   Grid, Table, TableBandHeader, TableHeaderRow,
   TableRowDetail,
 } from '@devexpress/dx-react-grid-material-ui';
-import { styled } from '@mui/material/styles';
+
 import { citiesCount, regionsCount } from '../../../demo-data/chart-data';
 
 const PREFIX = 'Demo';

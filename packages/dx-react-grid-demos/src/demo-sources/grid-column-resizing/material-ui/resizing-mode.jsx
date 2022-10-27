@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import Paper from '@mui/material/Paper';
-import { styled } from '@mui/material/styles';
-import OutlinedInput from '@mui/material/OutlinedInput';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import Typography from '@mui/material/Typography';
-import GridMUI from '@mui/material/Grid';
-import Button from '@mui/material/Button';
+import {
+  Paper,
+  styled,
+  OutlinedInput,
+  Select,
+  MenuItem,
+  Typography,
+  Button,
+  Grid as GridMUI,
+} from '@mui/material';
 import {
   Grid,
   Table,

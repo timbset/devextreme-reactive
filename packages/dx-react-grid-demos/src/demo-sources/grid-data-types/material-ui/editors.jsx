@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import Paper from '@mui/material/Paper';
-import Chip from '@mui/material/Chip';
-import Input from '@mui/material/Input';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
+import {
+  Paper, Chip, Input, Select, MenuItem,
+} from '@mui/material';
 import {
   DataTypeProvider,
   EditingState,

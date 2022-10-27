@@ -1,15 +1,15 @@
 // BLOCK:imports
-import TableCell from '@mui/material/TableCell';
-import Button from '@mui/material/Button';
-import MuiGrid from '@mui/material/Grid';
-import TextField from '@mui/material/TextField';
-import FormGroup from '@mui/material/FormGroup';
-import Edit from '@mui/icons-material/Edit';
-import Cancel from '@mui/icons-material/Close';
-import IconButton from '@mui/material/IconButton';
-import MenuItem from '@mui/material/MenuItem';
-import DatePicker from '@mui/lab/DatePicker';
-import LocalizationProvider from '@mui/lab/LocalizationProvider';
+import {
+  TableCell,
+  Button,
+  TextField,
+  FormGroup,
+  IconButton,
+  MenuItem,
+  Grid as MuiGrid,
+} from '@mui/material';
+import { Edit, Cancel } from '@mui/icons-material';
+import { DatePicker, LocalizationProvider } from '@mui/lab';
 import AdapterMoment from '@mui/lab/AdapterMoment';
 
 // BLOCK:imports

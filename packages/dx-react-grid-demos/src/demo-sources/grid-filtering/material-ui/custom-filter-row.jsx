@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import Paper from '@mui/material/Paper';
-import Input from '@mui/material/Input';
-import TableCell from '@mui/material/TableCell';
+import { Paper, Input, TableCell } from '@mui/material';
+
 import {
   FilteringState,
   IntegratedFiltering,

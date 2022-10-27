@@ -1,6 +1,6 @@
 import * as React from 'react';
-import * as PropTypes from 'prop-types';
-import TableCell from '@mui/material/TableCell';
+import PropTypes from 'prop-types';
+import { TableCell } from '@mui/material';
 
 const getColor = (amount) => {
   if (amount < 3000) {
