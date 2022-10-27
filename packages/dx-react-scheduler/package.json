@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-react-scheduler",
   "version": "3.0.6",
   "description": "Composable plugin-based scheduler component for React",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -23,7 +24,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-scheduler.umd.js",
+  "main": "dist/dx-react-scheduler.es.js",
   "module": "dist/dx-react-scheduler.es.js",
   "globalName": "DevExpress.DXReactScheduler",
   "files": [
