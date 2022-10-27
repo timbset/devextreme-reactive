@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Paper } from '@mui/material';
+import { Paper, colors } from '@mui/material';
 import {
   ViewState, EditingState, GroupingState, IntegratedGrouping, IntegratedEditing,
 } from '@devexpress/dx-react-scheduler';
@@ -15,10 +15,10 @@ import {
   ViewSwitcher,
   DragDropProvider,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import { blue, orange } from '@mui/material/colors';
 
 import { data as appointments } from '../../../demo-data/grouping';
 
+const { blue, orange } = colors;
 const resources = [{
   fieldName: 'priorityId',
   title: 'Priority',

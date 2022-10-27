@@ -1,6 +1,10 @@
 import * as React from 'react';
-import { Paper, alpha, styled } from '@mui/material';
-import { green, orange } from '@mui/material/colors';
+import {
+  Paper,
+  alpha,
+  styled,
+  colors,
+} from '@mui/material';
 import { LowPriority, PriorityHigh } from '@mui/icons-material';
 import {
   ViewState, GroupingState, IntegratedGrouping,
@@ -14,6 +18,8 @@ import {
   AllDayPanel,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { data as appointments } from '../../../demo-data/grouping';
+
+const { green, orange } = colors;
 
 const priorityData = [
   { text: 'Low Priority', id: 1, color: green },

@@ -1,6 +1,12 @@
-import {
-  pink, purple, teal, amber, deepOrange,
-} from '@mui/material/colors';
+import { colors } from '@mui/material';
+
+const {
+  pink,
+  purple,
+  teal,
+  amber,
+  deepOrange,
+} = colors;
 
 export const appointments = [
   {

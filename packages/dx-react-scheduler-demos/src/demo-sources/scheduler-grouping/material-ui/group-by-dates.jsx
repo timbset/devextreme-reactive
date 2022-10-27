@@ -1,8 +1,11 @@
 import * as React from 'react';
 import {
-  styled, Paper, Checkbox, FormControlLabel,
+  styled,
+  Paper,
+  Checkbox,
+  FormControlLabel,
+  colors,
 } from '@mui/material';
-import { green, lightBlue } from '@mui/material/colors';
 import {
   ViewState, EditingState, GroupingState, IntegratedGrouping, IntegratedEditing,
 } from '@devexpress/dx-react-scheduler';
@@ -20,6 +23,8 @@ import {
   ViewSwitcher,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { data as appointments } from '../../../demo-data/grouping';
+
+const { green, lightBlue } = colors;
 
 const PREFIX = 'Demo';
 // #FOLD_BLOCK

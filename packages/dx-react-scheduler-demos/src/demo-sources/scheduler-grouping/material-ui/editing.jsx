@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { Paper } from '@mui/material';
-import { blue, teal } from '@mui/material/colors';
+import { Paper, colors } from '@mui/material';
 import {
   ViewState, EditingState, GroupingState, IntegratedGrouping, IntegratedEditing,
 } from '@devexpress/dx-react-scheduler';
@@ -17,6 +16,7 @@ import {
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { data as appointments } from '../../../demo-data/grouping';
 
+const { blue, teal } = colors;
 const priorityData = [
   { text: 'Low Priority', id: 1, color: blue },
   { text: 'High Priority', id: 2, color: teal },

@@ -8,8 +8,8 @@ import {
   Button,
   styled,
   alpha,
+  colors,
 } from '@mui/material';
-import { teal, orange, red } from '@mui/material/colors';
 import classNames from 'clsx';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import {
@@ -24,6 +24,8 @@ import {
 } from '@devexpress/dx-react-scheduler-material-ui';
 
 import { appointments } from '../../../demo-data/appointments';
+
+const { teal, orange, red } = colors;
 
 const LOCATIONS = ['Room 1', 'Room 2', 'Room 3'];
 const LOCATIONS_SHORT = [1, 2, 3];

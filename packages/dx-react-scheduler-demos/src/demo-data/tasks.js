@@ -1,4 +1,6 @@
-import { green, deepOrange, lightBlue } from '@mui/material/colors';
+import { colors } from '@mui/material';
+
+const { green, deepOrange, lightBlue } = colors;
 
 export const tasks = [
   {

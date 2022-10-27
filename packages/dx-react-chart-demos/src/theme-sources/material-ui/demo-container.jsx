@@ -1,9 +1,13 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import {
-  ThemeProvider, StyledEngineProvider, createTheme,
+  ThemeProvider,
+  StyledEngineProvider,
+  createTheme,
+  colors,
 } from '@mui/material';
-import { blue } from '@mui/material/colors';
+
+const { blue } = colors;
 
 const lightTheme = createTheme({
   palette: {

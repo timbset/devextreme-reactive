@@ -4,11 +4,11 @@ import {
   Scheduler, DayView, Appointments, MonthView, Toolbar,
   DateNavigator, ViewSwitcher, TodayButton, Resources, AppointmentTooltip,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import { indigo, blue, teal } from '@mui/material/colors';
-import { Paper, styled, alpha } from '@mui/material';
+import { Paper, styled, alpha, colors } from '@mui/material';
 import classNames from 'clsx';
 
 const PREFIX = 'Demo';
+const { indigo, blue, teal } = colors;
 
 const classes = {
   appointment: `${PREFIX}-appointment`,

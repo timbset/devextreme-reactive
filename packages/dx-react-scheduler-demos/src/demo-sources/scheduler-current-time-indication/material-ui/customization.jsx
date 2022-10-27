@@ -5,11 +5,17 @@ import {
   WeekView,
   CurrentTimeIndicator,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import { Paper, styled, alpha } from '@mui/material';
-import { teal } from '@mui/material/colors';
+import {
+  Paper,
+  styled,
+  alpha,
+  colors,
+} from '@mui/material';
 import classNames from 'clsx';
 
 import appointments from '../../../demo-data/today-appointments';
+
+const { teal } = colors;
 
 const PREFIX = 'Demo';
 // #FOLD_BLOCK
