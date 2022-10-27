@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-react-grid-bootstrap4",
   "version": "3.0.6",
   "description": "Bootstrap 4 templates for DevExtreme React Grid component",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -26,7 +27,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-grid-bootstrap4.umd.js",
+  "main": "dist/dx-react-grid-bootstrap4.es.js",
   "module": "dist/dx-react-grid-bootstrap4.es.js",
   "styles": "dist/dx-react-grid-bootstrap4.css",
   "globalName": "DevExpress.DXReactGridBootstrap4",
