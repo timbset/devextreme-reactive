@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-grid-core",
   "version": "3.0.6",
   "description": "Core library for the DevExtreme Reactive Grid component",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -23,7 +24,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-grid-core.umd.js",
+  "main": "dist/dx-grid-core.es.js",
   "module": "dist/dx-grid-core.es.js",
   "types": "dist/dx-grid-core.d.ts",
   "globalName": "DevExpress.DXGridCore",
