@@ -3,6 +3,7 @@
   "name": "@devexpress/dx-testing",
   "version": "3.0.6",
   "description": "DevExtreme Reactive Components Testing Utilities",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
