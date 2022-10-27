@@ -1,4 +1,4 @@
 {
-  "additionalImports": "\nimport Paper from '@mui/material/Paper';",
+  "additionalImports": "\nimport { Paper } from '@mui/material';",
   "wrapperTag": "Paper"
 }

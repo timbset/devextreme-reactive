@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import Paper from '@mui/material/Paper';
+import {
+  Paper, IconButton, Menu, MenuItem, styled, Typography,
+} from '@mui/material';
 import {
   ArgumentAxis,
   ValueAxis,
@@ -11,14 +13,9 @@ import {
 import { Plugin, Template, TemplatePlaceholder } from '@devexpress/dx-react-core';
 import domtoimage from 'dom-to-image';
 import JsPDF from 'jspdf';
-import IconButton from '@mui/material/IconButton';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { MoreVert as MoreVertIcon } from '@mui/icons-material';
 import { scaleBand } from '@devexpress/dx-chart-core';
 import { ArgumentScale, Stack, Animation } from '@devexpress/dx-react-chart';
-import { styled } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
 
 import { gaming as data } from '../../../demo-data/data-vizualization';
 

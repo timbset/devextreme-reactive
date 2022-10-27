@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import { Paper, styled, Typography } from '@mui/material';
 import {
   Chart,
   ArgumentAxis,
@@ -8,8 +8,6 @@ import {
   Title,
   Legend,
 } from '@devexpress/dx-react-chart-material-ui';
-import { styled } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
 import { ArgumentScale, Animation } from '@devexpress/dx-react-chart';
 import {
   curveCatmullRom,

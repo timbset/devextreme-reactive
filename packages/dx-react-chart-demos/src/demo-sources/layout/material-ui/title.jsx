@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import { Paper, styled } from '@mui/material';
 import {
   Chart,
   ArgumentAxis,
@@ -8,7 +8,6 @@ import {
   Legend,
   Title,
 } from '@devexpress/dx-react-chart-material-ui';
-import { styled } from '@mui/material/styles';
 import { Stack } from '@devexpress/dx-react-chart';
 
 import { ageStructure } from '../../../demo-data/data-vizualization';

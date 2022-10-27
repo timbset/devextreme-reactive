@@ -1,5 +1,5 @@
 // BLOCK:imports
-import { styled } from '@mui/material/styles';
+import { styled } from '@mui/material';
 // BLOCK:imports
 
 // BLOCK:body

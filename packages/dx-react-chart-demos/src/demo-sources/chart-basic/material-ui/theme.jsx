@@ -1,13 +1,11 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import {
+  Paper, Typography, NativeSelect, FormControl, styled,
+} from '@mui/material';
 import {
   Chart,
   PieSeries,
 } from '@devexpress/dx-react-chart-material-ui';
-import Typography from '@mui/material/Typography';
-import NativeSelect from '@mui/material/NativeSelect';
-import FormControl from '@mui/material/FormControl';
-import { styled } from '@mui/material/styles';
 import {
   schemeCategory10,
   schemeAccent,

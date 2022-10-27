@@ -1,7 +1,5 @@
 // BLOCK:imports
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import { styled } from '@mui/material/styles';
+import { Button, Typography, styled } from '@mui/material';
 // BLOCK:imports
 
 // BLOCK:body

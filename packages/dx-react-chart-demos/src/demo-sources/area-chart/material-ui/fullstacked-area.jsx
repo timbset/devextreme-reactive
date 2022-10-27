@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import { Paper, styled } from '@mui/material';
 import {
   Chart,
   ArgumentAxis,
@@ -10,7 +10,6 @@ import {
 } from '@devexpress/dx-react-chart-material-ui';
 import { Stack, Animation } from '@devexpress/dx-react-chart';
 import { stackOffsetExpand } from 'd3-shape';
-import { styled } from '@mui/material/styles';
 import { carbonEmmision as data } from '../../../demo-data/data-vizualization';
 
 const PREFIX = 'Demo';

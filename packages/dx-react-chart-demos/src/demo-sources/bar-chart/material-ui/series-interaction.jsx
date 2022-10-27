@@ -1,5 +1,7 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import {
+  Paper, Button, styled, Typography,
+} from '@mui/material';
 import {
   Chart,
   BarSeries,
@@ -14,13 +16,9 @@ import { scaleBand } from '@devexpress/dx-chart-core';
 import {
   ArgumentScale, Stack, Animation, EventTracker, HoverState, SelectionState,
 } from '@devexpress/dx-react-chart';
-import Button from '@mui/material/Button';
-import { styled } from '@mui/material/styles';
 import {
   NavigateBefore, NavigateNext,
 } from '@mui/icons-material/';
-import Typography from '@mui/material/Typography';
-
 import { annualVehiclesSales as data } from '../../../demo-data/data-vizualization';
 
 const PREFIX = 'Demo';
