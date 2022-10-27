@@ -1,6 +1,6 @@
 /* eslint-disable react/destructuring-assignment */
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import { Paper } from '@mui/material';
 import { ViewState, EditingState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,

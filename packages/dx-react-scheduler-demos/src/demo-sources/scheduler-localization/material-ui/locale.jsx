@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
-import TextField from '@mui/material/TextField';
-import MenuItem from '@mui/material/MenuItem';
+import {
+  styled, Paper, TextField, MenuItem,
+} from '@mui/material';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,

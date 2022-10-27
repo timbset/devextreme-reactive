@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
+import { styled, Paper } from '@mui/material';
 import moment from 'moment';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import {

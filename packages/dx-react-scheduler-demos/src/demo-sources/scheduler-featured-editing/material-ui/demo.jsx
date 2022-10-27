@@ -1,8 +1,20 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable react/no-unused-state */
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
+import {
+  styled,
+  Paper,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+  Button,
+  Fab,
+  IconButton,
+  TextField,
+} from '@mui/material';
+
 import { ViewState, EditingState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,
@@ -18,24 +30,16 @@ import {
   AllDayPanel,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { connectProps } from '@devexpress/dx-react-core';
-import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import { DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterMoment } from '@mui/x-date-pickers/AdapterMoment';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle';
-import Button from '@mui/material/Button';
-import Fab from '@mui/material/Fab';
-import IconButton from '@mui/material/IconButton';
-import AddIcon from '@mui/icons-material/Add';
-import TextField from '@mui/material/TextField';
-import LocationOn from '@mui/icons-material/LocationOn';
-import Notes from '@mui/icons-material/Notes';
-import Close from '@mui/icons-material/Close';
-import CalendarToday from '@mui/icons-material/CalendarToday';
-import Create from '@mui/icons-material/Create';
+import {
+  Add as AddIcon,
+  LocationOn,
+  Notes,
+  Close,
+  CalendarToday,
+  Create,
+} from '@mui/icons-material';
 
 import { appointments } from '../../../demo-data/appointments';
 

@@ -6,7 +6,7 @@ import {
   DateNavigator, ViewSwitcher, TodayButton, Resources, AppointmentTooltip,
 } from '@devexpress/dx-react-scheduler-material-ui';
 import { indigo, blue, teal } from '@mui/material/colors';
-import Paper from '@mui/material/Paper';
+import { Paper } from '@mui/material';
 import classNames from 'clsx';
 
 const PREFIX = 'Demo';

@@ -1,9 +1,7 @@
 import * as React from 'react';
-import { alpha, styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
+import { Paper, alpha, styled } from '@mui/material';
 import { green, orange } from '@mui/material/colors';
-import LowPriority from '@mui/icons-material/LowPriority';
-import PriorityHigh from '@mui/icons-material/PriorityHigh';
+import { LowPriority, PriorityHigh } from '@mui/icons-material';
 import {
   ViewState, GroupingState, IntegratedGrouping,
 } from '@devexpress/dx-react-scheduler';

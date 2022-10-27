@@ -1,10 +1,13 @@
 import * as React from 'react';
 import {
-  styled, darken, alpha, lighten,
-} from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
-import TableCell from '@mui/material/TableCell';
-import Typography from '@mui/material/Typography';
+  Paper,
+  TableCell,
+  Typography,
+  styled,
+  darken,
+  alpha,
+  lighten,
+} from '@mui/material';
 import { ViewState, EditingState } from '@devexpress/dx-react-scheduler';
 import classNames from 'clsx';
 import {
@@ -19,10 +22,7 @@ import {
   Resources,
   DragDropProvider,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import WbSunny from '@mui/icons-material/WbSunny';
-import FilterDrama from '@mui/icons-material/FilterDrama';
-import Opacity from '@mui/icons-material/Opacity';
-import ColorLens from '@mui/icons-material/ColorLens';
+import { WbSunny, FilterDrama, Opacity, ColorLens } from '@mui/icons-material';
 import { owners } from '../../../demo-data/tasks';
 
 const PREFIX = 'Demo';

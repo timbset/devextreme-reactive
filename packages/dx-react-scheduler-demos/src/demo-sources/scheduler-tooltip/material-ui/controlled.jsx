@@ -1,14 +1,12 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+import { styled, Paper, IconButton } from '@mui/material';
 import {
   Appointments,
   AppointmentTooltip,
   Scheduler,
   WeekView,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import Paper from '@mui/material/Paper';
-import IconButton from '@mui/material/IconButton';
-import InfoIcon from '@mui/icons-material/Info';
+import { Info as InfoIcon } from '@mui/icons-material';
 import appointments from '../../../demo-data/today-appointments';
 
 const PREFIX = 'Demo';

@@ -27,11 +27,9 @@ import LowPriority from '@mui/icons-material/LowPriority';
 import Lens from '@mui/icons-material/Lens';
 import Event from '@mui/icons-material/Event';
 import AccessTime from '@mui/icons-material/AccessTime';
-import Paper from '@mui/material/Paper';
-import MenuItem from '@mui/material/MenuItem';
-import Select from '@mui/material/Select';
-import Grid from '@mui/material/Grid';
-import FormControl from '@mui/material/FormControl';
+import {
+  Paper, MenuItem, Select, Grid, FormControl,
+} from '@mui/material';
 import classNames from 'clsx';
 
 import { priorities } from '../../../demo-data/tasks';

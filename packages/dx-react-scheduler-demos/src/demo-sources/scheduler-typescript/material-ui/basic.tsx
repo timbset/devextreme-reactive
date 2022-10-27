@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import { Paper } from '@mui/material';
 import { AppointmentModel, ViewState, SchedulerDateTime } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler, DayView, Appointments, Resources,

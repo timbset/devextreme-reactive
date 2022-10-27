@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import { Paper } from '@mui/material';
 import { blue, teal } from '@mui/material/colors';
 import {
   ViewState, EditingState, GroupingState, IntegratedGrouping, IntegratedEditing,

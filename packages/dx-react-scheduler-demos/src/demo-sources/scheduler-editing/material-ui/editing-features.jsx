@@ -1,10 +1,13 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
-import FormGroup from '@mui/material/FormGroup';
-import Checkbox from '@mui/material/Checkbox';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Typography from '@mui/material/FormControl';
-import { styled } from '@mui/material/styles';
+import {
+  Paper,
+  FormGroup,
+  Checkbox,
+  FormControlLabel,
+  styled,
+  FormControl as Typography,
+} from '@mui/material';
+
 import { ViewState, EditingState, IntegratedEditing } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,

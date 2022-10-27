@@ -1,16 +1,14 @@
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
+import {
+  Paper, IconButton, Grid, styled,
+} from '@mui/material';
 import {
   Scheduler,
   WeekView,
   Appointments,
   AppointmentTooltip,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import IconButton from '@mui/material/IconButton';
-import MoreIcon from '@mui/icons-material/MoreVert';
-import Grid from '@mui/material/Grid';
-import Room from '@mui/icons-material/Room';
-import { styled } from '@mui/material/styles';
+import { MoreVert as MoreIcon, Room } from '@mui/icons-material';
 import classNames from 'clsx';
 
 import appointments from '../../../demo-data/today-appointments';

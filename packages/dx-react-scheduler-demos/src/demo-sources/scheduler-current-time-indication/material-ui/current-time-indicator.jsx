@@ -1,5 +1,7 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+import {
+  styled, Paper, Checkbox, FormControlLabel, Grid, TextField, Typography, InputAdornment,
+} from '@mui/material';
 import { EditingState } from '@devexpress/dx-react-scheduler';
 import {
   Appointments,
@@ -9,13 +11,6 @@ import {
   CurrentTimeIndicator,
   EditRecurrenceMenu,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import Paper from '@mui/material/Paper';
-import Checkbox from '@mui/material/Checkbox';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Grid from '@mui/material/Grid';
-import TextField from '@mui/material/TextField';
-import Typography from '@mui/material/Typography';
-import InputAdornment from '@mui/material/InputAdornment';
 
 import appointments from '../../../demo-data/today-appointments';
 

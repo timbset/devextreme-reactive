@@ -3,6 +3,7 @@
   "name": "@devexpress/dx-react-scheduler-demos",
   "version": "3.0.6",
   "description": "DevExtreme React Components Demos",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"

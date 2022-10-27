@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { styled, alpha } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
+import { styled, alpha, Paper } from '@mui/material';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,

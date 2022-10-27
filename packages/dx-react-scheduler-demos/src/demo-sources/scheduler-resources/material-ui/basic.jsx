@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
+import {
+  styled, Paper, Select, MenuItem,
+} from '@mui/material';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import {
   Scheduler,
@@ -9,8 +10,6 @@ import {
   Appointments,
   AppointmentTooltip,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
 
 const PREFIX = 'Demo';
 

@@ -1,11 +1,14 @@
 import * as React from 'react';
 import { createStore } from 'redux';
 import { connect, Provider } from 'react-redux';
-import Paper from '@mui/material/Paper';
-import TextField from '@mui/material/TextField';
-import ButtonGroup from '@mui/material/ButtonGroup';
-import Button from '@mui/material/Button';
-import { styled, alpha } from '@mui/material/styles';
+import {
+  Paper,
+  TextField,
+  ButtonGroup,
+  Button,
+  styled,
+  alpha,
+} from '@mui/material';
 import { teal, orange, red } from '@mui/material/colors';
 import classNames from 'clsx';
 import { ViewState } from '@devexpress/dx-react-scheduler';
