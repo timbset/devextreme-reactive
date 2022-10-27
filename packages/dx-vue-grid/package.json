@@ -3,6 +3,7 @@
   "private": true,
   "version": "3.0.6",
   "description": "Composable plugin-based data grid component for Vue",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -24,7 +25,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-vue-grid.umd.js",
+  "main": "dist/dx-vue-grid.es.js",
   "module": "dist/dx-vue-grid.es.js",
   "globalName": "DevExpress.DXVueGrid",
   "files": [
