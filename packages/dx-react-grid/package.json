@@ -2,6 +2,7 @@
   "name": "@devexpress/dx-react-grid",
   "version": "3.0.6",
   "description": "Composable plugin-based data grid component for React",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"
@@ -25,7 +26,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-grid.umd.js",
+  "main": "dist/dx-react-grid.es.js",
   "module": "dist/dx-react-grid.es.js",
   "globalName": "DevExpress.DXReactGrid",
   "files": [
