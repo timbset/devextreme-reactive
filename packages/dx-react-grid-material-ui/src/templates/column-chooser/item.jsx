@@ -1,9 +1,11 @@
 import * as React from 'react';
-import * as PropTypes from 'prop-types';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import Checkbox from '@mui/material/Checkbox';
-import { styled } from '@mui/material/styles';
+import PropTypes from 'prop-types';
+import {
+  styled,
+  ListItem,
+  ListItemText,
+  Checkbox,
+} from '@mui/material';
 
 const PREFIX = 'Item';
 export const classes = {

@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { createShallow, createMount } from '@devexpress/dx-testing';
-import IconButton from '@mui/material/IconButton';
-import ExpandMore from '@mui/icons-material/ExpandMore';
-import ExpandLess from '@mui/icons-material/ExpandLess';
+import { IconButton } from '@mui/material';
+import { ExpandMore, ExpandLess } from '@mui/icons-material';
 import { TableDetailToggleCell, classes } from './table-detail-toggle-cell';
 
 describe('TableDetailToggleCell', () => {

@@ -1,8 +1,7 @@
 import * as React from 'react';
-import * as PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import classNames from 'clsx';
-import TableMUI from '@mui/material/Table';
-import { styled } from '@mui/material/styles';
+import { styled, Table as TableMUI } from '@mui/material';
 import { getBorder, getStickyStyles } from './utils';
 
 const PREFIX = 'Table';
