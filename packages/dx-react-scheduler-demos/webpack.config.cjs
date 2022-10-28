@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 var path = require('path');
-var webpack = require('webpack');
 var WriteFilePlugin = require('write-file-webpack-plugin');
 
 module.exports = ({ production }) => ({
@@ -21,7 +20,9 @@ module.exports = ({ production }) => ({
         test: /\.js$/,
         include: /(node_modules\/)/,
         use: ["source-map-loader"],
-        enforce: "pre"
+        enforce: "pre",
+        //ignore rrule source maps to avoid console warnings https://github.com/jakubroztocil/rrule/issues/303
+        exclude: /(node_modules\/rrule)/,
       },
       {
         test: /\.tsx?$/,
@@ -35,12 +36,6 @@ module.exports = ({ production }) => ({
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
-      },
-      {
-        test: /\.svg$/,
-        use: {
-            loader: 'svg-sprite-loader',
-        }
       }
     ]
   },
@@ -53,7 +48,7 @@ module.exports = ({ production }) => ({
   ],
   devServer: {
     host: '0.0.0.0',
-    port: 3002,
+    port: 3005,
     historyApiFallback: true,
     disableHostCheck: true,
   }

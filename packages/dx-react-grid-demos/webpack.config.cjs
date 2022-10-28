@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 var path = require('path');
-var webpack = require('webpack');
 var WriteFilePlugin = require('write-file-webpack-plugin');
 
 module.exports = ({ production }) => ({
@@ -38,7 +37,9 @@ module.exports = ({ production }) => ({
       },
       {
         test: /\.svg$/,
-        loader: 'svg-sprite-loader',
+        use: {
+            loader: 'svg-sprite-loader',
+        }
       }
     ]
   },
@@ -51,7 +52,7 @@ module.exports = ({ production }) => ({
   ],
   devServer: {
     host: '0.0.0.0',
-    port: 3004,
+    port: 3002,
     historyApiFallback: true,
     disableHostCheck: true,
   }
