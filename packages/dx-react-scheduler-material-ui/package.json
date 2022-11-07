@@ -26,7 +26,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-scheduler-material-ui.es.js",
+  "main": "dist/dx-react-scheduler-material-ui.cjs.js",
   "module": "dist/dx-react-scheduler-material-ui.es.js",
   "globalName": "DevExpress.DXReactSchedulerMaterialUI",
   "files": [

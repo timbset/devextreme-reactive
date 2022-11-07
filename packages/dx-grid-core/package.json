@@ -24,7 +24,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-grid-core.es.js",
+  "main": "dist/dx-grid-core.umd.js",
   "module": "dist/dx-grid-core.es.js",
   "types": "dist/dx-grid-core.d.ts",
   "globalName": "DevExpress.DXGridCore",

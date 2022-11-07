@@ -28,7 +28,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-chart-bootstrap4.es.js",
+  "main": "dist/dx-react-chart-bootstrap4.umd.js",
   "module": "dist/dx-react-chart-bootstrap4.es.js",
   "styles": "dist/dx-react-chart-bootstrap4.css",
   "globalName": "DevExpress.DXReactChartBootstrap4",

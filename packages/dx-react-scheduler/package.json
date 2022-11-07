@@ -24,7 +24,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-scheduler.es.js",
+  "main": "dist/dx-react-scheduler.umd.js",
   "module": "dist/dx-react-scheduler.es.js",
   "globalName": "DevExpress.DXReactScheduler",
   "files": [

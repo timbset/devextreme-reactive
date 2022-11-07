@@ -27,7 +27,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/dx-react-grid-export.es.js",
+  "main": "dist/dx-react-grid-export.umd.js",
   "module": "dist/dx-react-grid-export.es.js",
   "globalName": "DevExpress.DXReactGridExport",
   "files": [
