@@ -29,6 +29,13 @@
   },
   "main": "dist/dx-react-grid-export.umd.js",
   "module": "dist/dx-react-grid-export.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-react-grid-export.umd.js",
+      "import": "./dist/dx-react-grid-export.es.js",
+      "default": "./dist/dx-react-grid-export.es.js"
+    }
+  },
   "globalName": "DevExpress.DXReactGridExport",
   "files": [
     "dist"

@@ -11,6 +11,13 @@
   "license": "SEE LICENSE IN README.md",
   "main": "dist/dx-testing.umd.js",
   "module": "dist/dx-testing.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-testing.umd.js",
+      "import": "./dist/dx-testing.es.js",
+      "default": "./dist/dx-testing.es.js"
+    }
+  },
   "globalName": "DevExpress.DXTesting",
   "scripts": {
     "build": "rollup -c rollup.config.js",

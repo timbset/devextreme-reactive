@@ -27,6 +27,13 @@
   "main": "dist/dx-chart-core.umd.js",
   "module": "dist/dx-chart-core.es.js",
   "globalName": "DevExpress.DXChartCore",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-chart-core.umd.js",
+      "import": "./dist/dx-chart-core.es.js",
+      "default": "./dist/dx-chart-core.es.js"
+    }
+  },
   "files": [
     "dist"
   ],

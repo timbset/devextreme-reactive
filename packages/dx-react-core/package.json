@@ -31,6 +31,13 @@
     "dist"
   ],
   "types": "dist/dx-react-core.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-react-core.umd.js",
+      "import": "./dist/dx-react-core.es.js",
+      "default": "./dist/dx-react-core.es.js"
+    }
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",

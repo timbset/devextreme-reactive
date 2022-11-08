@@ -25,6 +25,13 @@
   },
   "main": "dist/dx-scheduler-core.umd.js",
   "module": "dist/dx-scheduler-core.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-scheduler-core.umd.js",
+      "import": "./dist/dx-scheduler-core.es.js",
+      "default": "./dist/dx-scheduler-core.es.js"
+    }
+  },
   "globalName": "DevExpress.DXSchedulerCore",
   "files": [
     "dist"

@@ -30,6 +30,13 @@
   },
   "main": "dist/dx-react-grid-material-ui.cjs.js",
   "module": "dist/dx-react-grid-material-ui.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-react-grid-material-ui.cjs.js",
+      "import": "./dist/dx-react-grid-material-ui.es.js",
+      "default": "./dist/dx-react-grid-material-ui.es.js"
+    }
+  },
   "globalName": "DevExpress.DXReactGridMaterialUI",
   "files": [
     "dist"

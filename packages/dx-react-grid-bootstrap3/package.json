@@ -29,6 +29,13 @@
   },
   "main": "dist/dx-react-grid-bootstrap3.umd.js",
   "module": "dist/dx-react-grid-bootstrap3.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-react-grid-bootstrap3.umd.js",
+      "import": "./dist/dx-react-grid-bootstrap3.es.js",
+      "default": "./dist/dx-react-grid-bootstrap3.es.js"
+    }
+  },
   "globalName": "DevExpress.DXReactGridBootstrap3",
   "files": [
     "dist"

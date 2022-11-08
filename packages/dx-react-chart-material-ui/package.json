@@ -35,6 +35,13 @@
     "dist"
   ],
   "types": "dist/dx-react-chart-material-ui.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-react-chart-material-ui.cjs.js",
+      "import": "./dist/dx-react-chart-material-ui.es.js",
+      "default": "./dist/dx-react-chart-material-ui.es.js"
+    }
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",

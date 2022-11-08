@@ -3,6 +3,7 @@
   "name": "@devexpress/dx-demo-shell",
   "version": "3.0.6",
   "description": "DevExtreme Reactive Components Demo Shell",
+  "type": "module",
   "author": {
     "name": "Developer Express Inc.",
     "url": "https://www.devexpress.com/"

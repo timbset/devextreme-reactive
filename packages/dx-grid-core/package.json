@@ -31,6 +31,13 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "require": "./dist/dx-grid-core.umd.js",
+      "import": "./dist/dx-grid-core.es.js",
+      "default": "./dist/dx-grid-core.es.js"
+    }
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",

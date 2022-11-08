@@ -28,6 +28,13 @@
   },
   "main": "dist/dx-react-scheduler-material-ui.cjs.js",
   "module": "dist/dx-react-scheduler-material-ui.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/dx-react-scheduler-material-ui.cjs.js",
+      "import": "./dist/dx-react-scheduler-material-ui.es.js",
+      "default": "./dist/dx-react-scheduler-material-ui.es.js"
+    }
+  },
   "globalName": "DevExpress.DXReactSchedulerMaterialUI",
   "files": [
     "dist"
