@@ -23,6 +23,7 @@
       "default": "./dist/dx-react-scheduler.es.js"
     }
   },
+  "main": "dist/dx-react-scheduler.umd.js",
   "module": "dist/dx-react-scheduler.es.js",
   "files": [
     "dist"
