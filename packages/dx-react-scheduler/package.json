@@ -18,12 +18,12 @@
   "type": "module",
   "exports": {
     ".": {
-      "require": "./dist/dx-react-scheduler.umd.js",
+      "require": "./dist/dx-react-scheduler.umd.cjs",
       "import": "./dist/dx-react-scheduler.es.js",
       "default": "./dist/dx-react-scheduler.es.js"
     }
   },
-  "main": "dist/dx-react-scheduler.umd.js",
+  "main": "dist/dx-react-scheduler.umd.cjs",
   "module": "dist/dx-react-scheduler.es.js",
   "files": [
     "dist"

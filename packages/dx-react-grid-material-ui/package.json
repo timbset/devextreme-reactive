@@ -18,12 +18,12 @@
   "type": "module",
   "exports": {
     ".": {
-      "require": "./dist/dx-react-grid-material-ui.cjs.js",
+      "require": "./dist/dx-react-grid-material-ui.cjs.cjs",
       "import": "./dist/dx-react-grid-material-ui.es.js",
       "default": "./dist/dx-react-grid-material-ui.es.js"
     }
   },
-  "main": "dist/dx-react-grid-material-ui.cjs.js",
+  "main": "dist/dx-react-grid-material-ui.cjs.cjs",
   "module": "dist/dx-react-grid-material-ui.es.js",
   "files": [
     "dist"

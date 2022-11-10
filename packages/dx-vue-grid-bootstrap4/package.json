@@ -17,7 +17,7 @@
     "url": "https://github.com/DevExpress/devextreme-reactive/issues"
   },
   "type": "module",
-  "main": "dist/dx-vue-grid-bootstrap4.umd.js",
+  "main": "dist/dx-vue-grid-bootstrap4.umd.cjs",
   "module": "dist/dx-vue-grid-bootstrap4.es.js",
   "files": [
     "dist"
