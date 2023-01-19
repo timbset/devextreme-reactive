@@ -1,20 +1,18 @@
-// export default () => <div>Nothing</div>;
-
 import * as React from 'react';
-import Paper from '@mui/material/Paper';
-// import {
-//   Chart,
-//   BarSeries,
-//   Title,
-//   ArgumentAxis,
-//   ValueAxis,
-// } from '@devexpress/dx-react-chart-material-ui';
-// import { Animation } from '@devexpress/dx-react-chart';
+import { Paper } from '@mui/material';
+import {
+  Chart,
+  BarSeries,
+  Title,
+  ArgumentAxis,
+  ValueAxis,
+} from '@devexpress/dx-react-chart-material-ui';
+import { Animation } from '@devexpress/dx-react-chart';
 // import '@devexpress/dx-react-grid-material-ui';
 // import Head from 'next/head';
 // import '@devexpress/dx-react-scheduler';
 // import '@devexpress/dx-react-scheduler-material-ui';
-import { AdapterMoment, DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers';
+// import { AdapterMoment, DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers';
 // import { AdapterMoment } from '@mui/x-date-pickers/AdapterMoment';
 // import { AdapterMoment, DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers';
 
@@ -38,26 +36,18 @@ export default class Demo extends React.PureComponent {
   }
 
   render() {
-    // return <div>Index</div>;
-
     const { data: chartData } = this.state;
 
     return (
-      <Paper>
-        hey
-        {/* <Chart */}
-        {/*   data={chartData} */}
-        {/* > */}
-        {/*   <ArgumentAxis /> */}
-        {/*   <ValueAxis max={7} /> */}
+      <Paper id="chart">
+        <Chart data={chartData}>
+          <ArgumentAxis />
+          <ValueAxis max={7} />
 
-        {/*   <BarSeries */}
-        {/*     valueField="population" */}
-        {/*     argumentField="year" */}
-        {/*   /> */}
-        {/*   <Title text="World population" /> */}
-        {/*   <Animation /> */}
-        {/* </Chart> */}
+          <BarSeries valueField="population" argumentField="year" />
+          <Title text="World population" />
+          <Animation />
+        </Chart>
       </Paper>
     );
   }

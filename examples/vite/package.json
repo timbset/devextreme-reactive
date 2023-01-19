@@ -1,15 +1,13 @@
 {
-  "name": "@examples/next",
+  "name": "@examples/vite",
+  "private": true,
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "next dev -p 3100",
-    "build": "next build --no-lint",
-    "start": "next start",
-    "lint": "next lint",
-    "test": "testcafe chrome tests/test.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@devexpress/dx-chart-core": "4.0.2",
@@ -26,13 +24,16 @@
     "@mui/material": "^5.11.4",
     "@mui/x-date-pickers": "5.0.9",
     "d3-color": "^3.1.0",
-    "next": "^13.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^3.0.1",
+    "vite": "^4.0.4",
+    "lodash-es": "^4.17.21",
+    "valtio": "^1.1.0",
+    "axios": "^0.21.1"
   },
   "devDependencies": {
-    "babel-plugin-direct-import": "^1.0.0",
-    "next-transpile-modules": "^9.1.0",
-    "testcafe": "^2.2.0"
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10"
   }
 }

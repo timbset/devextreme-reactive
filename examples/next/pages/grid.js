@@ -1,12 +1,13 @@
 import * as React from 'react';
 
-// import { styled, darken, alpha, lighten } from '@mui/material/styles';
-import {
-  Paper, styled, darken, alpha, lighten,
-} from '@mui/material';
+import { styled, darken, alpha, lighten } from '@mui/material/styles';
+// import {
+//   Paper, styled, darken, alpha, lighten,
+// } from '@mui/material';
 // import Paper from '../components/Paper.cjs';
 import TableCell from '@mui/material/TableCell';
 import Typography from '@mui/material/Typography';
+import Paper from '@mui/material/Paper';
 
 import { ViewState, EditingState } from '@devexpress/dx-react-scheduler';
 
@@ -348,7 +349,7 @@ export default class Demo extends React.PureComponent {
     const { data } = this.state;
 
     return (
-      <Paper>
+      <Paper id="grid">
         <Scheduler
           data={data}
         >

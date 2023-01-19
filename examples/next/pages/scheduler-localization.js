@@ -85,7 +85,7 @@ export default class Demo extends React.PureComponent {
     // return <div><AddIcon /></div>;
 
     return (
-      <div>
+      <div id="scheduler">
         <LocaleSwitcher
           currentLocale={locale}
           onLocaleChange={this.changeLocale}
