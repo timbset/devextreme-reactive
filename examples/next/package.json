@@ -1,0 +1,36 @@
+{
+  "name": "@examples/next",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --no-lint",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@devexpress/dx-chart-core": "4.0.2",
+    "@devexpress/dx-react-chart": "4.0.2",
+    "@devexpress/dx-react-chart-material-ui": "4.0.2",
+    "@devexpress/dx-react-core": "4.0.2",
+    "@devexpress/dx-react-grid": "4.0.2",
+    "@devexpress/dx-react-grid-material-ui": "4.0.2",
+    "@devexpress/dx-react-scheduler": "4.0.2",
+    "@devexpress/dx-react-scheduler-material-ui": "4.0.2",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.4",
+    "@mui/x-date-pickers": "5.0.9",
+    "d3-color": "^3.1.0",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-direct-import": "^1.0.0",
+    "next-transpile-modules": "^9.1.0"
+  }
+}
