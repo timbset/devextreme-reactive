@@ -41,7 +41,7 @@ import ColorLens from '@mui/icons-material/ColorLens';
 // const Opacity = _Opacity.default;
 // const ColorLens = _ColorLens.default;
 
-import { owners } from '../tasks';
+import { owners } from '../data/tasks.js';
 
 const PREFIX = 'Demo';
 

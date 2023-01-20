@@ -1,11 +1,11 @@
 import { Selector, fixture, test } from 'testcafe';
 
-fixture`scheduler-localization`
-  .page`localhost:3100/scheduler-localization`;
+fixture`scheduler`
+  .page`localhost:3100/scheduler`;
 
 test('Render scheduler', async (t) => {
   await t
-    .expect(Selector('#scheduler').exists).ok();
+    .expect(Selector('.home-page').exists).ok();
 });
 
 fixture`chart`

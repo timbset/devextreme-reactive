@@ -26,10 +26,10 @@ export default {
       '/** @class */': '/*#__PURE__*/',
       delimiters: ['', ''],
     }),
-    modify({
-      find: /import {(.+)} from 'rrule';/,
-      replace: (match, name) => `import rrulePkg from 'rrule/dist/es5/rrule.js'; const {${name}} = rrulePkg;`,
-    }),
+    // modify({
+    //   find: /import {(.+)} from 'rrule';/,
+    //   replace: (match, name) => `import rrulePkg from 'rrule/dist/es5/rrule.js'; const {${name}} = rrulePkg;`,
+    // }),
     license({
       banner,
     }),
