@@ -10,15 +10,17 @@ import {
   AllDayPanel,
 } from '@devexpress/dx-react-scheduler-material-ui';
 
-// import { ArticleList, PopularTags } from '../components'
-import useAuth from './hooks/useAuth'
-
-import appointments from './data/appointments'
-import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import TextField from '@mui/material/TextField';
+import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+
+// import { ArticleList, PopularTags } from '../components'
+
+import useAuth from './hooks/useAuth'
+import appointments from './data/appointments'
+
 const initialFilters = { tag: '', offset: null, feed: false }
 
 const messages = {
