@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import classNames from 'classnames';
 import React from 'react';
 import { ViewState } from '@devexpress/dx-react-scheduler';
@@ -11,7 +12,6 @@ import {
 } from '@devexpress/dx-react-scheduler-material-ui';
 
 import TextField from '@mui/material/TextField/index.js';
-import { DatePicker } from '@mui/x-date-pickers/DatePicker/index.js';
 import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker/index.js';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider/index.js';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns/index.js';
@@ -35,9 +35,9 @@ function App() {
     setFilters({ ...initialFilters, feed: isAuth });
   }, [isAuth]);
 
-  function onTagClick(tag) {
-    setFilters({ ...initialFilters, tag });
-  }
+  // function onTagClick(tag) {
+  //   setFilters({ ...initialFilters, tag });
+  // }
 
   function onGlobalFeedClick() {
     setFilters(initialFilters);
@@ -109,14 +109,6 @@ function App() {
                     Global Feed
                   </button>
                 </li>
-                {filters?.tag && (
-                  <li className="nav-item">
-                    <a className="nav-link active">
-                      #
-                      {filters?.tag}
-                    </a>
-                  </li>
-                )}
               </ul>
             </div>
             {/* <ArticleList filters={filters} /> */}

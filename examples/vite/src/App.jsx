@@ -10,7 +10,6 @@ import {
   AllDayPanel,
 } from '@devexpress/dx-react-scheduler-material-ui';
 
-import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import TextField from '@mui/material/TextField';
 import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';

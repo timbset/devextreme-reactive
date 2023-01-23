@@ -24,9 +24,10 @@
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.4",
-    "@mui/x-date-pickers": "5.0.9",
+    "@mui/x-date-pickers": "^5.0.15",
+    "classnames": "^2.3.2",
     "d3-color": "^3.1.0",
-    "next": "^13.1.1",
+    "next": "^13.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "lodash-es": "^4.17.21",
@@ -34,8 +35,6 @@
     "axios": "^0.21.1"
   },
   "devDependencies": {
-    "babel-plugin-direct-import": "^1.0.0",
-    "next-transpile-modules": "^9.1.0",
     "testcafe": "^2.2.0"
   }
 }
