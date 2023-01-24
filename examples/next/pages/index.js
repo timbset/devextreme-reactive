@@ -8,13 +8,6 @@ import {
   ValueAxis,
 } from '@devexpress/dx-react-chart-material-ui';
 import { Animation } from '@devexpress/dx-react-chart';
-// import '@devexpress/dx-react-grid-material-ui';
-// import Head from 'next/head';
-// import '@devexpress/dx-react-scheduler';
-// import '@devexpress/dx-react-scheduler-material-ui';
-// import { AdapterMoment, DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers';
-// import { AdapterMoment } from '@mui/x-date-pickers/AdapterMoment';
-// import { AdapterMoment, DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers';
 
 const data = [
   { year: '1950', population: 2.525 },
