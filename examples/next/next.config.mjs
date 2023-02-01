@@ -1,5 +1,5 @@
-const nextConfig = {
-  transpilePackages: ['@mui/icons-material', '@mui/x-date-pickers']
-}
+import transpiler from 'next-transpile-modules'
 
-export default nextConfig
+const withTM = transpiler(['@mui/icons-material', '@mui/x-date-pickers']);
+
+export default withTM({});
