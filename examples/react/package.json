@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "dev": "cross-env PORT=3100 react-scripts start",
-    "build": "react-scripts build",
     "test": "testcafe chrome tests/test.js"
   },
   "dependencies": {
